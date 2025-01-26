@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 from transformers import pipeline
 from config import API_TOKEN
-
+""" Use your own API Key to test"""
 pipe = pipeline(
     "text-generation", 
     model="TinyLlama/TinyLlama-1.1B-Chat-v1.0",  
